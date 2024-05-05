@@ -50,7 +50,7 @@ function App() {
           <Grid item className={classes.body}>
             <Switch>
               <Route exact path="/">
-                <Welcome />
+                <Home />
               </Route>
               <Route exact path="/login">
                 <Login />
